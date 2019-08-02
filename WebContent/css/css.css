@@ -1,0 +1,143 @@
+#topo{
+    width: 100%;
+    background-color: #1A1E1A;
+    display: flex; 
+    justify-content: space-between; 
+}
+#imagemCab{
+    width: 17%;
+    text-align: end;
+   }
+#logo{
+    height: 50px;
+    margin: 0 40px;
+}
+.titulo{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgray;
+}
+.esquerdo{
+    text-align: end;
+    width: 20%;
+}
+.direito{
+    width: 20%;
+    margin: 0 50px;
+}
+footer{
+    background-color: #1A1E1A;
+    height: 20px;
+    clear: both;
+    font-size: 15px;
+    text-align: center;
+    color: lightgray;
+    padding: 5px
+}
+.section{
+    clear: both;
+    width: 100%;
+    min-height: 360px;
+}
+nav{
+    clear: both;
+}
+.opcao{
+    float: left;
+    width: 10%;
+    background-color: transparent;
+    margin: 20px 150px;
+    height: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: 15px;
+} 
+.opcao:hover{
+    background-color: #5B5E4D;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#878C73;
+}
+.imgem{
+    width: 32%;
+    height: 540px;
+    float: right;
+    background-color:transparent;
+    margin-right: 125px;
+}
+#geladeiraDesenho{  
+    width: 300px;
+    margin-left: 50px;
+    height: 540px;
+}
+.textoHome{
+    padding: 30px;
+}
+#paragrafo{
+    margin: 70px; 
+    width: 50%;
+    height: 500px;
+    text-align: justify;
+    background-color: #1A1E1A;
+    color: #878C73;
+    padding: 20px;
+}
+fieldset{
+    width: 500px;
+    min-height: 300px;
+    margin: 0 410px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text input{
+    width: 480px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+h2{
+    text-align: center
+}
+#botoes button{
+    height: 30px;
+    width: 140px;
+    border-radius: 7px; 
+    font-size: 18px;
+}
+h3{
+    text-align: center;
+}
+.ultimoGanhador p{
+    width: 500px;
+    text-align: justify;
+    margin: 0 415px;
+    border: 1px solid black;
+}
+.ganhador{
+    width: 502px;
+    margin: 0 415px;    
+}
+#proxSorteios{
+    margin: 0 200px;
+    text-align: center;
+    color: #878C73;
+}
+#proxSorteios h2{
+    color: #1A1E1A;
+}
+td{
+  width: 300px;  
+}
+tr{
+    height: 30px;
+}
+tr:nth-child(even){
+    background-color: #1A1E1A
+}
+tr:nth-child(odd){
+    background-color: #222222;
+}

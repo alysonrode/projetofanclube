@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fã clube">
+    <meta name="author" content="Alyson Rode">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-wdidth, initial scale 1,0">
+    <title> Fã Clube - Coldigo Geladeiras </title>
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <script src="../site.js"></script>
+</head>
+
+<body>
+    <div class="section">
+        <div id="topo">
+            <div class="titulo esquerdo">
+                <h1> Fã Clube</h1>
+            </div>
+            <div id="imagemCab">
+                <img src="../imgs/logo.png" alt="logo Coldigo Geladeiras" id="logo">
+            </div>
+            <div class="titulo direito">
+                <h1> Coldigo Geladeiras</h1>
+            </div>
+        </div>
+        <nav>
+            <a href="../WEB-INF/index.html">
+                <div class="opcao"> INICIO </div>
+            </a>
+            <a href="../site/sorteios.html">
+                <div class="opcao"> SORTEIOS </div>
+            </a>
+            <a href="../site/cadastro.html">
+                <div class="opcao"> CADASTRE-SE </div>
+            </a>
+        </nav>
+        <h2> Cadastre-se e faça parte do time!</h2>
+        <form name="fichacadastral" method="POST" action="#" onsubmit="return validaFormulario()">
+            <fieldset class="Formulario">
+                <legend>Preencha o campo abaixo </legend>
+                <div class="text">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" name="txtnome" id="nome">
+                    <label for="dataNasc">Data de nascimento</label>
+                    <input type="date" name="dataNasc" id="nasc">
+                    <label for="cpf">Seu cpf</label>
+                    <input type="text" name="txtCpf" id="cpf">
+                    <label for="email">Seu email</label>
+                    <input type="email" name="txtEmail" id="email">
+                    <label for="telefone">Seu telefone</label>
+                    <input type="number" name="numTelefone" id="telefone">
+                </div>
+                <hr>
+                <hr>
+                <label for="genero"> Gênero </label>
+                <div id="generos">
+                    <input type="radio" name="genero" id="masc" value="Masculino">
+                    <label for="masc">Masculino</label>
+
+                    <input type="radio" name="genero" id="fem" value="Feminino">
+                    <label for="fem"> Feminino </label>
+
+                    <input type="radio" name="genero" id="outro" value="Outro">
+                    <label for="outro"> Outro </label>
+                </div>
+                <hr> 
+                <hr>
+                Termos de uso   
+                <div id="termos">
+                    <input onchange="validaBotao()" class="input_box" name="checkbox" id="checkbox" type="checkbox" value="termo" />Li e concordo com os termos de uso
+                </div>
+                <hr>
+                <hr>
+                <div id="botoes">
+                    <button type="reset"> Recomeçar </button><button type="submit" name="enviar" id="enviar"> Enviar</button>
+                </div>
+            </fieldset>
+
+        </form>
+    </div>
+    <footer>Copyright &copy Alyson Rode</footer>
+</body>
+
+</html>

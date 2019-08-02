@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fã clube">
+    <meta name="author" content="Alyson Rode">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-wdidth, initial scale 1,0">
+    <title> Fã Clube - Coldigo Geladeiras </title>
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+</head>
+
+<body>
+    <div class="section">
+        <div id="topo">
+            <div class="titulo esquerdo">
+                <h1> Fã Clube</h1>
+            </div>
+            <div id="imagemCab">
+                <img src="../imgs/logo.png" alt="logo Coldigo Geladeiras" id="logo">
+            </div>
+            <div class="titulo direito">
+                <h1> Coldigo Geladeiras</h1>
+            </div>
+        </div>
+        <nav>
+            <a href="../WEB-INF/index.html">
+                <div class="opcao"> INICIO  </div>
+            </a>
+            <a href="../site/sorteios.html">
+                <div class="opcao"> SORTEIOS </div>
+            </a>
+            <a href="../site/cadastro.html">
+                <div class="opcao"> CADASTRE-SE </div>
+            </a>
+        </nav>
+        <div id="proxSorteios">
+            <h2> PRÓXIMOS SORTEIOS</h2>
+            <table class="sorteios">
+                <thead>
+                    <tr>
+                        <th colspan="5" class="tituloDaTabela"> SORTEIOS</th> 
+                    </tr>
+                    <tr>
+                        <th> Dia </th>
+                        <th> Evento </th>
+                        <th> Prêmio </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 29/07 </td>
+                        <td> Promo Geladeiras</td>
+                        <td> 1 Geladeira eletrolukz</td>
+                    </tr>
+                    <tr>
+                        <td> 04/08 </td>
+                        <td> GelaVxento </td>
+                        <td> 2 Geladeiras consul</td>
+                    </tr>
+                    <tr>
+                        <td> 13/08 </td>
+                        <td> ColdigoFest</td>
+                        <td> 1 Geladeira de qualquer marca</td>
+                    </tr>
+                    <tr>
+                        <td> 10/09 </td>
+                        <td> Freezer fest</td>
+                        <td> 10 Geladeiras de qualquer marca</td>
+                    </tr>
+                    <tr>
+                        <td> 05/12 </td>
+                        <td> Promo Geladeiras 2</td>
+                        <td> 1 Geladeira eletrolukz</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <div class="ultimoGanhador">
+            <h3> DESEJA UM DESSES PRÊMIOS? </h3>
+            <P> Se inscreva no sorteio, e tenha a chance de ganhar um destes prêmios,
+                e fique feliz igual nosso último ganhador, veja a foto:
+            </P>
+            <img src="../imgs/ultimoGanhador.jpg" class="ganhador">
+            <hr>
+            <h3> SE INSCREVA NO PRÓXIMO SORTEIO</h3> 
+            <form name="inscricaoSorteio" method="POST" action="#">
+            <div class="text">
+                <fieldset>
+                    <legend> Preencha a ficha de inscrição </legend>
+                    <label for="name"> Nome completo </label>
+                    <input type="text" name="nomesorteio" id="nomesort">
+                    <label for="email"> Email </label>
+                    <input type="email" name="emailSorteio" id="emailSort">
+                    <label for="cpf"> CPF </label>
+                    <input type="text" name="cpfsorteio" id="cpfSort">
+                    <button type="submit"> PARTICIPAR</button>
+                </fieldset>
+            </div>
+            </form>
+        </div>
+    </div>
+        <footer>Copyright &copy Alyson Rode</footer>
+</body>
+
+</html>
